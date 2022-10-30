@@ -22,6 +22,24 @@ grid-template-rows: repeat(auto-fit, 350px);
 grid-gap: 1rem;
 }
 ```
+
+Using :hovor to hide and show the picture.
+
+```
+.card img{
+   /*block*/
+   width: 100%;
+   height: 300px;
+   overflow-y: hidden;
+   /*content*/
+   opacity: 0;
+}
+
+.card img:hover{
+   /*content*/
+   opacity: 1;
+}
+```
 ## #banner & < footer > 
 Those two sections are positioned by text-align.
 
